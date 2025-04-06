@@ -11,8 +11,8 @@ use Illuminate\Support\Facades\Facade;
  */
 class EventManager extends Facade
 {
-  protected static function getFacadeAccessor(): string
-  {
-    return \ThinkliveId\LiveEvent\EventManager::class;
-  }
+    protected static function getFacadeAccessor(): string
+    {
+        return \ThinkliveId\LiveEvent\EventManager::class;
+    }
 }

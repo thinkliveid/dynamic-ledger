@@ -1,3 +1,3 @@
 <?php
 
-it('cat test', fn() => expect(true)->toBeTrue());
+it('cat test', fn () => expect(true)->toBeTrue());
