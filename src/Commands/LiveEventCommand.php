@@ -6,14 +6,14 @@ use Illuminate\Console\Command;
 
 class LiveEventCommand extends Command
 {
-  public $signature = 'live:event';
+    public $signature = 'live:event';
 
-  public $description = 'Live event';
+    public $description = 'Live event';
 
-  public function handle(): int
-  {
-    $this->comment('All done');
+    public function handle(): int
+    {
+        $this->comment('All done');
 
-    return self::SUCCESS;
-  }
+        return self::SUCCESS;
+    }
 }
