@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php": "^8.4",
+    "php": "^8.3",
     "spatie/laravel-package-tools": "^1.16",
     "illuminate/contracts": "^10.0||^11.0||^12.0"
   },
@@ -38,13 +38,13 @@
   },
   "autoload": {
     "psr-4": {
-      "ThinkliveId\\DynamicLedger\\": "src/",
-      "ThinkliveId\\DynamicLedger\\Database\\Factories\\": "database/factories/"
+      "ThinkliveId\\LiveEvent\\": "src/",
+      "ThinkliveId\\LiveEvent\\Database\\Factories\\": "database/factories/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ThinkliveId\\DynamicLedger\\Tests\\": "tests/"
+      "ThinkliveId\\LiveEvent\\Tests\\": "tests/"
     }
   },
   "scripts": {
@@ -65,10 +65,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ThinkliveId\\DynamicLedger\\DynamicLedgerServiceProvider"
+        "ThinkliveId\\LiveEvent\\LiveEventServiceProvider"
       ],
       "aliases": {
-        "DynamicLedger": "ThinkliveId\\DynamicLedger\\Facades\\Skeleton"
+        "EventManager": "ThinkliveId\\LiveEvent\\Facades\\EventManager"
       }
     }
   },
